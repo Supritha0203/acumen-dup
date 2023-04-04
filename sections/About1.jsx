@@ -23,7 +23,7 @@ const About1 = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        Attention all tech enthusiasts! The moment you've been waiting for has arrived. The highly-anticipated poster for the upcoming <span className="font-extrabold text-white">Acumen!</span> has been officially released! With its vibrant colors and eye-catching design, the poster captures the essence of the event and promises an experience like no other. Get ready to immerse yourself in the world of technology and innovation, with new characteristics, events, and competitions designed to inspire and educate. So mark your calendars and get ready to embark on an exciting journey that will take you to the cutting-edge of the tech industry. The countdown to the <span className="font-extrabold text-white">Acumen!</span> has begun, and we can't wait to see you there!
+        Welcome to <span className="font-extrabold text-white">Acumen</span>, the ultimate platform for showcasing your technical prowess and creativity! One of the exciting events that we have in store for you is the <span className="italic text-white">Poster Presentation</span>. As an individual event, it challenges you to channel your inner artist and create a visually stunning poster that captures the essence of the assigned topic. With the right combination of images, quotes, and creativity, you will have the opportunity to present your poster to our esteemed panel of judges and compete with other talented participants. Join us at <span className="font-extrabold text-white">Acumen</span> and let your poster speak volumes about your innovative ideas!
       </motion.p>
 
       <motion.img

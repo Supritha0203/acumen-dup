@@ -41,16 +41,18 @@ const Navbar = () => {
           {/* <button className='border-none bg-transparent text-black mr-4'>
             Sign In
           </button> */}
+          <a href="https://docs.google.com/forms/d/17PGeA5MN6YOfg8cpEeA8R04hUC84P--cqs6p6qwuDW4/edit?ts=64116010" target="_blank" rel="noreferrer">
           <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]" >
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Register Here
-          </span>
-      </button>
+            <img
+              src="/headset.svg"
+              alt="headset"
+              className="w-[24px] h-[24px] object-contain"
+            />
+            <span className="font-normal text-[16px] text-white">
+              Register Here
+            </span>
+          </button>
+          </a>
         </div>
         <div className='md:hidden mr-4 bg-indigo-600' onClick={handleClick}>
             {!nav ? <MenuIcon className='w-5' /> : <XIcon className='w-5' />}

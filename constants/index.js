@@ -218,7 +218,7 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'Paper Presentation',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Gear up to present the future of tech with Paper Presentation competition at Acumen - where knowledge meets creativity!',
     pageUrl: '/Poster'
 
   },
@@ -226,7 +226,7 @@ export const newFeatures = [
     imgUrl: '/headset.svg',
     title: 'Poster Presentation',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        "Unleash your artistic and innovative side at Acumen's Poster Presentation event - a platform to showcase your creative brilliance!",
     pageUrl: '/Poster'
 
   },

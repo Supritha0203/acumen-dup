@@ -23,7 +23,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Acumen ECE's</span> <span className="italic text-white">Inspire and Ignite</span> initiative aims to empower students with the passion to create change by providing knowledge and support. Selected college students visit government schools, train students on foundational concepts, and collect innovative ideas. On the day of <span className="font-extrabold text-white">Acumen</span>, these students are invited to participate in all events, indulge in food, dance, and are introduced to the world of engineering. The initiative serves as an opportunity to inspire young minds and ignite their passion for technology and innovation.
+        Are you passionate about the latest advancements in technology? Do you want to showcase your research and presentation skills? If so, we have the perfect event for you - the <span className="italic text-white">Paper Presentation</span> competition at <span className="font-extrabold text-white">Acumen.</span> In this individual event, participants will have the opportunity to delve into the latest research in technology by referring to an IEEE research paper on given themes, and prepare a visually engaging and informative PowerPoint presentation to present in front of a panel of expert judges. It's an opportunity to showcase your knowledge and creativity while networking with other like-minded individuals. Join us at <span className="font-extrabold text-white">Acumen</span> and put your skills to the test!
       </motion.p>
 
       <motion.img
