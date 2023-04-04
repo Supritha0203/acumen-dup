@@ -13,7 +13,7 @@ import Router from 'next/router'
 import { useContext } from 'react'
 
 
-const ExploreCard4 = ({ id, imgUrl, Poster, title, open, setOpen, index, active, handleClick }) => (
+const ExploreCard4 = ({ id, imgUrl, Poster, title, subtitle, open, setOpen, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -51,8 +51,9 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, open, setOpen, index, active,
             size="md"
             variant="soft"
           >
+            <div className='overflow-x-hidden overflow-y-auto ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto'>
             <ModalClose onClick={() => setOpen(false)} />
-            <Typography className='imagecss font-semibold text-[16px] leading-[20.16px] text-black uppercase'>
+            <Typography className='imagecss font-extrabold text-[16px] leading-[20.16px] text-black uppercase'>
             {title}
             </Typography>
             <Typography>
@@ -61,6 +62,10 @@ const ExploreCard4 = ({ id, imgUrl, Poster, title, open, setOpen, index, active,
             alt="headset"
             className='imagecss' 
           /></Typography>
+          <Typography className='imagecss italic text-[12px] leading-[20.16px] text-black '>
+            {subtitle}
+            </Typography>
+          </div>
           </ModalDialog>
         </Modal>
         </div>
