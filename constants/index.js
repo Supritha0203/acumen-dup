@@ -217,7 +217,7 @@ export const sponsorsList = [
   },
   {
     id: 'sp-9',
-    imgUrl: '/CCC.png',
+    imgUrl: '/CCC.jpg',
     title: 'CCC'
   },
 ];
