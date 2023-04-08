@@ -16,12 +16,12 @@ const Navbar = () => (
     {/* <div className="absolute w-[50%] inset-0 gradient-01" /> */}
     <div className={`${styles.flexCenter} mx-auto flex gap-4`} style={{"marginTop": "-40px"}}>
         <img 
-          src='/stamp.png'
+          src='/logo_vce.png'
           alt='clglogo'
-          className='w-[64px] h-[64px] object-contain'
+          className='w-[80px] h-[80px] object-cover'
           
         />
-        <h2 className="font-extrabold text-[28px] lg:text-[28px] md:text-[20px] sm:text-[10px] leading-[25px] text-white sm:my-2 lg:my-5">
+        <h2 className="font-extrabold text-[29px] lg:text-[29px] md:text-[21px] sm:text-[11px] leading-[25px] text-white sm:my-2 lg:my-5">
            VASAVI COLLEGE OF ENGINEERING
         </h2>
       </div>

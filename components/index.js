@@ -7,6 +7,7 @@ import ExploreCard5 from './ExploreCard5';
 import ExploreCard51 from './ExploreCard51';
 import StartSteps from './StartSteps';
 import NewFeatures from './NewFeatures';
+import Sponsors from './Sponsors';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
 
@@ -23,5 +24,6 @@ export {
   ExploreCard5,
   ExploreCard51,
   InsightCard,
+  Sponsors,
   Footer,
 };

@@ -18,9 +18,9 @@ const Navbar = () => {
         <div className='flex items-center text-white'>
         <div className='cursor-pointer'onClick={() => Router.push('/')}>
           <img
-            src="/stamp.png"
+            src="/logo_acumen.png"
             alt="search"
-            className="w-[60px] h-[60px] mr-4 object-contain gap-4"
+            className="w-[80px] h-[80px] mr-3 object-contain gap-4"
           />
         </div>
           <h1 className='text-3xl flex font-bold mr-20 sm:text-4xl cursor-pointer' onClick={() => Router.push('/')}>ACUMEN</h1>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { motion } from 'framer-motion';
@@ -19,6 +20,7 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Register for Acumen
         </h4>
+        <a href="https://docs.google.com/forms/d/17PGeA5MN6YOfg8cpEeA8R04hUC84P--cqs6p6qwuDW4/edit?ts=64116010" target="_blank" rel="noreferrer">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
             src="/headset.svg"
@@ -26,9 +28,10 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Acumen
+            Register Here
           </span>
         </button>
+        </a>
       </div>
 
       <div className="flex flex-col">
@@ -38,10 +41,6 @@ const Footer = () => (
           <h4 className="font-extrabold text-[24px] text-white">
             ACUMEN
           </h4>
-          {/* <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
-          </p> */}
-
           <div className="flex gap-4">
             {socials.map((social) => (
               <img

@@ -1,4 +1,4 @@
-import { Footer, Navbar, Navbar_Prim } from '../components';
+import { Footer, Navbar, Navbar_Prim, Sponsors } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew } from '../sections';
 
 const Page = () => (
@@ -23,6 +23,7 @@ const Page = () => (
       <div className="gradient-04 z-0" />
       <Feedback />
     </div>
+    <Sponsors />
     <Footer />
   </div>
 );

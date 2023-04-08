@@ -83,7 +83,7 @@ export const exploreWorlds5 = [
   {
     id: 'world-1',
     imgUrl: '/planet13.jpg',
-    Poster: '/planet13.jpg',
+    Poster: '/poster_industrize.png',
     title: 'Industry Defined Problem',
     subtitle: 'In this event you need to provide ideas for the given industry problems to jury persons.The below link contains the list of problem statements provided by different organizations.',
     open:false
@@ -131,7 +131,7 @@ export const exploreWorlds51 = [
   {
     id: 'world-6',
     imgUrl: '/planet13.jpg',
-    Poster: '/planet13.jpg',
+    Poster: '/poster_ponggame.png',
     title: 'The Pong Game',
     subtitle: 'The pong game is the two-dimensional game that simulates table tennis kind of competition.It consists of a ball bouncing on a screen and each of the players is provided with slider to hit the ball.The position of slider is adjusted using a knob which will be provided at the either sides of the screen.',
     open:false
@@ -149,9 +149,9 @@ export const exploreWorlds51 = [
   {
     id: 'world-8',
     imgUrl: '/Planet24.jpg',
-    Poster: '/Planet24.jpg',
-    title: 'Codathon',
-    subtitle: 'Codathon is a coding competition exclusively for BE 1st and 2nd year students in which they have to solve 3 questions within a span of 60 minutes. Out of the 3 questions, one is easy, one is medium and the other is hard. Participants should bring a laptop along with them to participate in the contest.',
+    Poster: '/poster_codevars.png',
+    title: 'CodeVars',
+    subtitle: 'Codevars is a coding competition exclusively for BE 1st and 2nd year students in which they have to solve 3 questions within a span of 60 minutes. Out of the 3 questions, one is easy, one is medium and the other is hard. Participants should bring a laptop along with them to participate in the contest.',
     open:false
     // pageUrl: '/ProjectExpo'
   },
@@ -171,7 +171,54 @@ export const exploreWorlds51 = [
     title: 'Whack-A-Mole',
     subtitle: 'Whack-a-mole" is a classic arcade game where players use a mallet to hit mechanical moles as they pop up from different holes. The game is usually played against a clock, with the goal being to hit as many moles as possible within the time limit. The traditional "Whack-a-mole" has been remodified to use lasers and sensors instead of a mallet. The game is timed, so players must work quickly to earn as many points as possible before time runs out. Their scores are displayed on a small LCD screen or a set of 7-segment displays.',
     open:false
-    // pageUrl: '/TechnicalEvents'   2. smart dustbin 1.tetris 2.target practice 3.theme based workshop 4. vr maze
+  },
+];
+
+export const sponsorsList = [
+  {
+    id: 'sp-1',
+    imgUrl: '/BoB.png',
+    title: 'Bank of Baroda'
+  },
+  {
+    id: 'sp-2',
+    imgUrl: '/Capricot.png',
+    title: 'Capricot'
+  },
+  {
+    id: 'sp-3',
+    imgUrl: '/Physitech.png',
+    title: 'Physitech Electronics'
+  },
+  {
+    id: 'sp-4',
+    imgUrl: '/PCB.png',
+    title: 'Telangana PCB'
+  },
+  {
+    id: 'sp-5',
+    imgUrl: '/Entuple.png',
+    title: 'Entuple Technologies'
+  },
+  {
+    id: 'sp-6',
+    imgUrl: '/NSE.png',
+    title: 'NSE Talent Sprint'
+  },
+  {
+    id: 'sp-7',
+    imgUrl: '/ARK.png',
+    title: 'ARK'
+  },
+  {
+    id: 'sp-8',
+    imgUrl: '/Alumni.png',
+    title: 'Alumni'
+  },
+  {
+    id: 'sp-9',
+    imgUrl: '/CCC.png',
+    title: 'CCC'
   },
 ];
 
