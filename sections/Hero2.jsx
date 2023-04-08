@@ -5,14 +5,20 @@ import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
-import { Presentations } from '../constants';
 
 import Modal from '@mui/joy/Modal';
 import ModalClose from '@mui/joy/ModalClose';
 import ModalDialog from '@mui/joy/ModalDialog';
 import { Typography } from '@mui/material';
+import { useEffect, useState } from 'react';
 
-const Hero2 = () => (
+const Hero2 = () => {const [ImageOpen, setImageOpen] = useState(false)
+  useEffect(() => {
+  setImageOpen(false)
+},[]);
+
+
+return(
   <section className={`${styles.yPaddings} sm:pl-16 pl-6 `}>
     <motion.div
       variants={staggerContainer}
@@ -46,13 +52,13 @@ const Hero2 = () => (
         />
 
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
-            <img
+            <img 
               src="/stamp0.png"
               alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain cursor-pointer" onClick={() => setImageOpen(true)}
             />
-            {/* <Modal
-          open={true}
+            <Modal
+          open={ImageOpen}
           // onClose={handleClose}
           aria-labelledby="parent-modal-title"
           aria-describedby="parent-modal-description"
@@ -62,9 +68,9 @@ const Hero2 = () => (
             size="md"
             variant="soft"
           >
-            <ModalClose onClick={() => Open(false)} />
+            <ModalClose onClick={() => setImageOpen(false)} />
             <div className='overflow-x-hidden overflow-y-auto ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto'>
-            <ModalClose onClick={() => Open(false)} />
+            <ModalClose onClick={() => setImageOpen(false)} />
             <Typography className='imagecss font-extrabold text-[16px] leading-[20.16px] text-black uppercase'>
             Paper Presentation
             </Typography>
@@ -76,11 +82,11 @@ const Hero2 = () => (
           /></Typography>
           </div>
           </ModalDialog>
-        </Modal> */}
+        </Modal>
           </div>
       </motion.div>
     </motion.div>
   </section>
-);
+)};
 
 export default Hero2;
